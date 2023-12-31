@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    >
+
+    <ImageView
+        android:id="@+id/ImageEvent"
+        android:layout_width="385dp"
+        android:layout_height="237dp"
+        android:src="@drawable/jabami"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="123dp"
+        android:layout_height="38dp"
+
+        android:text="Title News "
+
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/DateEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="21dp"
+
+        android:text="03:45 am"
+
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+         />
+
+
+    <TextView
+        android:id="@+id/Adresse"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+
+        android:text="Ariana"
+
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionEvent"
+        android:layout_width="385dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="11dp"
+
+        android:text="Description News"
+
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="45dp"
+
+        android:layout_height="47dp"
+        android:layout_marginStart="4dp"
+        android:onClick="backHome"
+        android:src="@drawable/back"
+        />
+
+
+</LinearLayout>
